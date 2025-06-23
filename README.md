@@ -42,6 +42,23 @@ Download the model file from the link provided in the assignment, rename it to b
 
 python detect_and_track.py
 
+## 🔗 Download Required Files
+
+This repository does not include large files (due to GitHub's 100MB limit).
+
+Please download the following files manually before running the code:
+
+### 1. YOLO Model Weights
+- **File:** `weights/best.pt`
+- **Download link:** [Click here to download best.pt](https://drive.google.com/drive/folders/1Nx6H_n0UUI6L-6i8WknXd4Cv2c3VjZTP?usp=sharing)
+- **Save to:** `weights/` directory
+
+### 2. Input Video File
+- **File:** `15sec_input_720p.mp4`
+- **Download link:** [Click here to download input video](https://drive.google.com/drive/folders/1Nx6H_n0UUI6L-6i8WknXd4Cv2c3VjZTP?usp=sharing)
+- **Save to:** project root (same directory as `detect_and_track.py`)
+
+
 📌 Notes
 The YOLOv8 model is pre-trained to detect both players and the ball.
 DeepSORT’s max_age parameter is tuned to allow temporary disappearance before reassigning IDs.
