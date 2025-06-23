@@ -1,7 +1,9 @@
+# .gitignore
+
 venv/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.mp4
+*.pt
+*.h5
 *.log
-.env
+.DS_Store
